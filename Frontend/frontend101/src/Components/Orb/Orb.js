@@ -19,7 +19,6 @@ function Orb() {
   }
   
   `;
-
   const OrbStyled = styled.div`
     width: 70vh;
     height: 70vh;
@@ -28,11 +27,11 @@ function Orb() {
     margin-left: -37vh;
     margin-top: -37vh;
     background: linear-gradient(180deg, #f56692 0%, #f2994a 100%);
-    filter: blur(300px);
+    filter: blur(400px);
     animation: ${moveOrb} 1s alternate linear infinite;
   `;
 
-  return <OrbStyled></OrbStyled>;
+  return <OrbStyled />;
 }
 
 export default Orb;
