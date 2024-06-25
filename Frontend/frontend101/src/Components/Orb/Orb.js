@@ -11,7 +11,7 @@ function Orb() {
   
   }
   50%{
-    transform: translate(${width / 1.2}px,${height / 1.5}px);
+    transform: translate(${width}px,${height / 2}px);
   }
   100%{
     transform: translated(0,0)
@@ -28,8 +28,8 @@ function Orb() {
     margin-left: -37vh;
     margin-top: -37vh;
     background: linear-gradient(180deg, #f56692 0%, #f2994a 100%);
-    filter: blur(400px);
-    animation: ${moveOrb} 5s alternate linear infinite;
+    filter: blur(300px);
+    animation: ${moveOrb} 1s alternate linear infinite;
   `;
 
   return <OrbStyled></OrbStyled>;
